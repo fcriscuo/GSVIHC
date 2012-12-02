@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="6AEDFA64-50F2-EE79-3C8C-7885CE5605BA" directorySegmentName="seg_0" name="Clinical_Note_Type">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 18:25:28 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-07-24 18:26:50 UTC</changedTime>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <pkName>Clinical_Note_Type PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="clinical_note_type_id" id="804D8E83-1C15-A17D-3A36-CF2B8E0F1BEF">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:25:47 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:26:09 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="cn_type" id="9A3BC856-425F-F2B0-19A5-708FD219B878">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:26:09 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:26:34 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>60</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="CEAF1C52-12C1-D8AE-BE59-B5A98D02F440" name="Clinical_Note_Type PK">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:26:08 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:26:08 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>804D8E83-1C15-A17D-3A36-CF2B8E0F1BEF</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="StructVar-GenAnnot" id="096434C9-9F12-0C52-9E80-F07593FA294D" directorySegmentName="seg_0">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 21:02:02 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-07-24 21:34:22 UTC</changedTime>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>8F2F182E-5A55-BD2A-62E0-D41EE633F09C</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>4E5C6225-C1D4-02DD-989E-55312B66140E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

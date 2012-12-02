@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="E365087E-9723-1E22-ACAE-871F3C990F44" directorySegmentName="seg_0" name="GenomicAnnotationType">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 21:17:23 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-07-24 21:17:23 UTC</changedTime>
+   <generatorID>7E579369-E965-B10F-8447-F93C664CF75A</generatorID>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <pkName>GenomicAnnotationType PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="gat_id" id="9B5D92BC-5B2C-E2D7-6758-4DA35DB41EE9">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:17:23 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:17:23 UTC</changedTime>
+         <generatorID>B16AA878-A14A-40FC-3637-E5ED73510249</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ga_type" id="C0638D79-3CAD-2C0A-A3BA-31BBB655768B">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:17:23 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:17:23 UTC</changedTime>
+         <generatorID>241730E0-ED59-91D8-8480-93AD8707CAC0</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>128</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8088C01A-AA03-CACE-9D24-824871899C82" name="GenomicAnnotationType PK">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:17:23 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:17:23 UTC</changedTime>
+         <generatorID>ED96C1BF-DC94-709C-8A2A-0E581424367F</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="9B5D92BC-5B2C-E2D7-6758-4DA35DB41EE9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

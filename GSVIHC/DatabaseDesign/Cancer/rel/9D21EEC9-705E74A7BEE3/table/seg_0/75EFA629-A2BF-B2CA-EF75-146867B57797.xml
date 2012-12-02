@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="75EFA629-A2BF-B2CA-EF75-146867B57797" directorySegmentName="seg_0" name="Patient_Data_Audit">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 17:55:35 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-07-26 02:40:25 UTC</changedTime>
+   <generatorID>A9E4B1D1-B3D5-2388-39C4-82B175530EA0</generatorID>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <pkName>PK_Clinical_Note_Audit</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="audit_date" id="6533E5B4-A845-429D-E118-559CB170CD28">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 17:55:35 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 17:55:35 UTC</changedTime>
+         <generatorID>2D4121E5-C119-2367-32D0-D137DAE22276</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="action_type" id="BB445782-A9D0-7E60-CA04-2A3C51C1C636">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 17:55:35 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 17:55:35 UTC</changedTime>
+         <generatorID>0EBBB700-BB20-E292-1A6E-E7A844E48C37</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="access_seq" id="586D2B15-2BE4-D2E9-EBE1-978FEEEDCC56">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 17:55:35 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 17:55:35 UTC</changedTime>
+         <generatorID>D045DDC6-CB4B-994B-ED41-413DE4C5AD33</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_account_id" id="64498456-4CB2-2966-89FF-A4E1867A8183">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:50:21 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:50:21 UTC</changedTime>
+         <generatorID>033C4B8A-37E5-8CFD-B176-60239313987B</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+         <delegate>E7CCF017-104E-2E96-4A3D-A0BC872452CE</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="F94991A0-C2B6-AE42-A64C-AC97E5084EAA" referredColumn="E7CCF017-104E-2E96-4A3D-A0BC872452CE"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="patient_id1" id="094C4E4F-5C56-255D-C9FD-E9D5FFE1B7F8">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:50:21 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:50:21 UTC</changedTime>
+         <generatorID>9AC113E8-DCE8-C872-D11A-8AC66D067948</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+         <delegate>D229E705-AB6D-AB74-CA1E-FBD0D3BD3DC0</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="B38DBD5E-A237-5554-D230-78BC52D92FCD" referredColumn="D229E705-AB6D-AB74-CA1E-FBD0D3BD3DC0"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="table_name" id="10D2CF7C-7C9A-FB38-07CA-F75EE067C038">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-26 01:05:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-26 01:05:49 UTC</changedTime>
+         <generatorID>911A1743-1D16-17AD-D9B7-C6EB6EC9541F</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="column_name" id="716141D2-8047-F5DD-DCBE-829218F80F83">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-26 01:05:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-26 01:05:49 UTC</changedTime>
+         <generatorID>C80B5C66-1E80-4919-3137-47329A22D913</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="old_value" id="AB316E9E-F166-B3C0-7A21-667F94D0FCC4">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-26 01:05:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-26 01:05:49 UTC</changedTime>
+         <generatorID>082FF704-8C7B-D717-12FF-BB223DD9C0F0</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2048</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="new_value" id="C93962C5-1B76-81BA-0925-24D9DD8E64F5">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-26 01:05:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-26 01:05:49 UTC</changedTime>
+         <generatorID>1D45F647-49C9-3F83-3994-DD0B63D385A0</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2048</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="AE0BA639-5113-C2AD-A7AD-3F7B4D026F76" name="PK_Clinical_Note_Audit">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 17:55:35 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:50:21 UTC</changedTime>
+         <generatorID>D9E86797-2EFB-7CF8-1B01-C13923AC823D</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="586D2B15-2BE4-D2E9-EBE1-978FEEEDCC56"/>
+            <colUsage columnID="094C4E4F-5C56-255D-C9FD-E9D5FFE1B7F8"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C52D4777-0D60-9690-653E-33B87275DE43" name="Relation_28">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:50:21 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:50:21 UTC</changedTime>
+         <generatorID>EC443460-0F59-8CDC-5D86-8BE913158C77</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="64498456-4CB2-2966-89FF-A4E1867A8183"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0D69DE06-A13D-4377-D448-8A25D2ACB800" name="Relation_29">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 21:50:21 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:50:21 UTC</changedTime>
+         <generatorID>B971AEF9-1E42-DE2A-5CF3-220A49AAC39E</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="094C4E4F-5C56-255D-C9FD-E9D5FFE1B7F8"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

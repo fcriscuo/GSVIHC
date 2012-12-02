@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GenEntity-GenAnnot" id="12A99F03-B874-CF29-1124-7397C83BD2C5" directorySegmentName="seg_0">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 21:02:38 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-07-24 21:34:31 UTC</changedTime>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>64356D21-4D07-F6A7-E69C-24339642ECD1</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>4E5C6225-C1D4-02DD-989E-55312B66140E</targetEntity>
+   <transferable>true</transferable>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="845A6272-71AE-C878-6A7F-ADE6B613BD30" directorySegmentName="seg_0" name="GenomicEntityGenes_Genomic_Entity_FK">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-08-07 22:26:09 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-08-07 22:27:13 UTC</changedTime>
+   <generatorID>C9812B5F-673D-FA29-41CC-E3C08BB552AF</generatorID>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <containerWithKeyObject>F3F7E30C-9CC3-D129-B7D0-C2F70D710194</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>C3DC2A71-6EB3-D9F0-47B9-1BC70C1A8929</localFKIndex>
+   <keyObject>294422A8-880B-7C8A-E079-F9912B1CA3BF</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

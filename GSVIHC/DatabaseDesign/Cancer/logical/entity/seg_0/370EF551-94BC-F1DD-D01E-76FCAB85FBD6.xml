@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="370EF551-94BC-F1DD-D01E-76FCAB85FBD6" directorySegmentName="seg_0" name="StructuralVariationCollection">
+   <createdBy>fcriscuo</createdBy>
+   <createdTime>2011-07-24 18:00:02 UTC</createdTime>
+   <changedBy>fcriscuo</changedBy>
+   <changedTime>2011-08-07 17:00:50 UTC</changedTime>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <pkName>StructuralVariationCollection PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LOH_flag" id="5D497F18-1004-66F9-5509-678B0CAB77CD">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:01:25 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:01:46 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="somatic_mut_flag" id="FBDD0107-07EB-98CB-222D-F284C3AC6262">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:02:20 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:02:55 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="driver_flag" id="B5AADCD4-C14D-C1D8-1A9B-D5EC9BB7B6F9">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:02:55 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-26 01:21:02 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="comments" id="10EEDCE7-D45C-E43D-71BE-6EA19AE735F2">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:10:48 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:11:11 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>2048</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="analysis_id" id="E4276059-75DB-86DD-DBB3-3953D936C05B">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:11:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:11:49 UTC</changedTime>
+         <generatorID>AC93E958-2252-913B-744A-056EEC997B94</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <referedAttribute>8871348C-592D-4189-27FA-FD2D26722B5F</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="biopsy_seq" id="C8DA455F-B814-0F14-1EEA-6BD8D26112FF">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:11:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:11:49 UTC</changedTime>
+         <generatorID>AC93E958-2252-913B-744A-056EEC997B94</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <referedAttribute>7D51A373-D07E-4244-8F62-E1CAB661A334</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="patient_id1" id="F5908D35-019E-0A9F-A9BD-7514A7560175">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:11:49 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 21:54:41 UTC</changedTime>
+         <generatorID>AC93E958-2252-913B-744A-056EEC997B94</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <referedAttribute>A678824D-AA1F-D7B3-E31D-CE53A2B910F6</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="structural_variation_id" id="19929209-CAA7-AD7F-BFFF-62554B43BD9B">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:11:59 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-07-24 18:11:59 UTC</changedTime>
+         <generatorID>57718336-F771-4616-D592-38F3C14F1A8B</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <referedAttribute>BEDF1481-6F8C-FBDF-822E-3BFD184ADC31</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT057</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="svc_seq" id="E2D11F06-E9F4-4795-8797-1E8B8474BFB2">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-08-07 17:00:50 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-08-07 17:00:50 UTC</changedTime>
+         <generatorID>5F841B1C-9818-CA2E-CBE8-185344962BA6</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CIRCOS_image" id="A3823CF8-9555-E5C5-0BE3-B2012CEA0C9B">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-08-07 17:00:50 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-08-07 17:00:50 UTC</changedTime>
+         <generatorID>02DA7D55-C94D-325F-8D48-24BDE6AFC9DF</generatorID>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="3C632070-7658-8D4A-911D-F784CBAE840E" name="StructuralVariationCollection PK">
+         <createdBy>fcriscuo</createdBy>
+         <createdTime>2011-07-24 18:01:24 UTC</createdTime>
+         <changedBy>fcriscuo</changedBy>
+         <changedTime>2011-08-07 17:00:50 UTC</changedTime>
+         <ownerDesignName>Cancer</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>E4276059-75DB-86DD-DBB3-3953D936C05B</attributeRef>
+            <attributeRef>C8DA455F-B814-0F14-1EEA-6BD8D26112FF</attributeRef>
+            <attributeRef>F5908D35-019E-0A9F-A9BD-7514A7560175</attributeRef>
+            <attributeRef>19929209-CAA7-AD7F-BFFF-62554B43BD9B</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

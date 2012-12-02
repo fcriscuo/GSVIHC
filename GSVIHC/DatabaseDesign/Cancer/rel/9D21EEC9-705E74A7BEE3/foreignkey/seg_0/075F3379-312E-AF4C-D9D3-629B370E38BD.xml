@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="075F3379-312E-AF4C-D9D3-629B370E38BD" directorySegmentName="seg_0" name="StructuralVariationCollection_Patient_Biopsy_FK">
+   <createdBy>fcriscuolo</createdBy>
+   <createdTime>2011-08-09 14:19:31 UTC</createdTime>
+   <changedBy>fcriscuolo</changedBy>
+   <changedTime>2011-08-09 14:19:31 UTC</changedTime>
+   <generatorID>4099C65A-788B-2CA0-63FA-C6DC799653BD</generatorID>
+   <ownerDesignName>Cancer</ownerDesignName>
+   <containerWithKeyObject>D79C8DCF-946E-0C44-A5AA-0138AE09A97C</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>985C70A8-6720-7197-8149-99391D5F1D3F</localFKIndex>
+   <keyObject>E3315DCE-361D-7B7C-52CC-DEF54785B21D</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>
